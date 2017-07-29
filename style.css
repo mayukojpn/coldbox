@@ -2811,6 +2811,37 @@ ul.page-numbers a.page-numbers:hover {
   padding: 4px 0;
 }
 
+.widget .textwidget p {
+  margin-bottom: 1em;
+}
+
+.widget .textwidget a {
+  color: #00619F;
+}
+
+.widget .textwidget a:hover {
+  color: #2e4453;
+}
+
+.widget .textwidget ul {
+  list-style: square;
+  position: relative;
+  margin-bottom: 1em;
+  padding-left: 30px;
+}
+
+.widget .textwidget ol {
+  list-style: decimal;
+  position: relative;
+  margin-bottom: 1em;
+  padding-left: 30px;
+}
+
+.widget .textwidget ul li ul, .widget .textwidget ul li ol, .widget .textwidget ol li ul, .widget .textwidget ol li ol {
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
 .widget_recent_entries li a {
   display: block;
   position: relative;
