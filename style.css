@@ -2475,10 +2475,13 @@ ul.page-numbers a.page-numbers:hover {
   z-index: 1000;
   width: 50px;
   height: auto;
+  border: 0 transparent;
+  background-color: transparent;
   cursor: pointer;
   -webkit-transition: all .4s;
   transition: all .4s;
   -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
 }
 
 .nav-toggle .top, .nav-toggle .middle, .nav-toggle .bottom {
@@ -2840,6 +2843,10 @@ ul.page-numbers a.page-numbers:hover {
 .widget .textwidget ul li ul, .widget .textwidget ul li ol, .widget .textwidget ol li ul, .widget .textwidget ol li ol {
   margin-bottom: .5em;
   margin-top: .5em;
+}
+
+.widget .textwidget > *:last-child {
+  margin-bottom: 0;
 }
 
 .widget_recent_entries li a {
