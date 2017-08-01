@@ -2667,18 +2667,17 @@ ul.page-numbers a.page-numbers:hover {
 }
 
 .footer a {
-  color: rgba(255, 255, 255, .9);
+  color: #00d1b2;
 }
 
 .footer a:hover {
-  color: white;
+  color: #009881;
 }
 
 .footer .copyright {
   -webkit-flex-shrink: 1;
       -ms-flex-negative: 1;
           flex-shrink: 1;
-  font-weight: 300;
   line-height: 1.6;
 }
 
