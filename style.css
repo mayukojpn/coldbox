@@ -73,7 +73,7 @@ ol, ul {
 *  1. Global
 * ------------------------------------------------------------------------- */
 html {
-  font-size: 62.5% !important;
+  font-size: 62.5%;
 }
 
 body {
@@ -261,6 +261,10 @@ body {
   background: #00619F;
   color: #fff;
   text-shadow: none;
+}
+
+amp-img {
+  max-width: 100%;
 }
 
 img {
@@ -1048,6 +1052,7 @@ p.post-btm-tags a:hover, p.post-btm-cats a:hover {
 }
 
 .author-box .author-links .social-links {
+  list-style-type: none;
   margin-bottom: 0;
   font-size: .82em;
 }
