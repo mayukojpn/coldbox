@@ -20,7 +20,7 @@ while ( have_posts() ) :
 				<div class="title-box-inner container">
 					<div class="breadcrumb"><?php cd_breadcrumb(); ?></div>
 					<h1 class="post-title">
-						<?php echo get_the_title(); ?>
+						<?php the_title(); ?>
 					</h1>
 				</div>
 			</header>
